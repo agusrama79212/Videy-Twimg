@@ -34,6 +34,10 @@ const router = createBrowserRouter([
         element: <PlayVideo />,
       },
       {
+        path: "amplify_video/:id", // Rute baru untuk format `/e/:id`
+        element: <PlayVideo />,
+      },
+      {
         path: "d/:id", // Rute baru untuk format `/e/:id`
         element: <PlayVideo />,
       },
